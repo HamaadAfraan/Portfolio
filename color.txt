@@ -1,0 +1,44 @@
+
+                <span style="--i:4" data-text="Software Engineer">Software Engineer</span>
+                <span style="--i:3" data-text="Youtuber">Youtuber</span>
+                <span style="--i:2" data-text="Frontend Developer">Frontend Developer</span>
+                <span style="--i:1" data-text="House Planner">House Planner</span>
+
+
+
+.home-detail h2 span{
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .07rem var(--main-color);
+    animation: display-text 20s linear infinite;
+    animation-delay: calc(-5s * var(--i));
+}
+
+@keyframes display-text{
+    25%,
+    100%{
+        display: none;
+    }
+}
+
+.home-detail h2 span::before{
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: .2rem solid var(--main-color);
+    color: var(--main-color);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 5s linear infinite;
+}
+@keyframes fill-text{
+    10%,
+    100%{
+        width: 0;
+    }
+    70%,
+    90%{
+        width: 100%;
+    }
+}

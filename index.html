@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Mail Server -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!--DATA AOS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+
+    <!--Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!--Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Favicon -->
+    <link rel="icon" href="images/favicon.png">
+
+    <!--Title -->
+    <title> Hamaad Afraan </title>
+</head>
+<body>
+    <header  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">
+        
+        <a href="#home" class="logo">Hamaad</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <button id="theme-switch">
+            <i class='bx bxs-moon' ></i>
+            <i class='bx bxs-sun' ></i>
+        </button>
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#services">Services</a>
+            <a href="#resume">About</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home Section-->
+    <section class="home" id="home">
+        <div class="home-detail" >
+            <h1 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">Hamaad Afraan Ahmad</h1>
+            <h2 data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">I Am A 
+                <ul class="dynamic-txts">
+                    <li><span> Software Engineer</span></li>
+                    <li><span> React JS Developer</span></li>
+                    <li><span> Frontend Developer</span></li>
+                    <li><span> Youtuber</span></li>
+                    <li><span> House Planner</span></li>
+                </ul>
+            </h2>
+            <p data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">Passionate and detail-oriented Frontend Developer with 2+ years of experience in building responsive, user-friendly websites using <b><i>HTML,</i></b> <b><i>CSS,</i></b> <b><i>JavaScript,</i></b> and modern frameworks like <b><i>React.js.</i></b> Eager to apply my strong problem-solving skills, attention to design details, and commitment to creating seamless user experiences at <a href="https://sfikesolutions.in" target="_blank"><i>SFIKE SOLUTIONS PVT. LTD. </i></b></a>  Looking to contribute to innovative projects while continuing to enhance my skills in frontend development.</p>
+            <div class="btn-sci"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">
+                <a href="CV/cv.pdf" class="btn" download="file" target="_blank">View CV</a>
+                <div class="sci">
+                    <a href="https://in.linkedin.com/in/hamaad-afraan-b858b21a1?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                    <a href="https://github.com/HamaadAfraan" target="_blank"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.facebook.com/hamaad.afraan.54/" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.youtube.com/@thestrangerunboxing" target="_blank"><i class='bx bxl-youtube'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="home-img" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="2800">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="images/me_transparent.png">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!--Services Section-->
+    <section class="services" id="services">
+        <h2 class="heading" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">My <span>Services</span></h2>
+        <div class="services-container">
+
+            <div class="services-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                <div class="icon">
+                    <i class='bx bx-code-alt'></i>
+                    <a href="#portfolio"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Web Developer</h3>
+                <p>2 Years Of Experience In Frontend Development With A Strong Foundation In HTML5, CSS3, and JavaScript.</p>
+            </div>
+
+            <div class="services-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1800">
+                <div class="icon">
+                    <i class='bx bxs-home-heart'></i>
+                    <a href="#portfolio"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>House Planner</h3>
+                <p>Completed 15+ House Plan, In Which I Provide 2d House Plan & Also Make 3d Elevation Of House/Bunglow!!</p>
+            </div>
+
+            <div class="services-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2100">
+                <div class="icon">
+                    <i class='bx bxl-youtube' ></i>
+                    <a href="https://www.youtube.com/@thestrangerunboxing" target="_blank"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Youtuber</h3>
+                <p>4+ Years Of Experience In Youtube,Where I Created Unboxing And Review Video And Porvided The Complete Information About Product Which I Unbox!</p>
+            </div>
+
+            <div class="services-box" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
+                <div class="icon">
+                    <i class='bx bxs-video-recording'></i>
+                    <a href="https://www.youtube.com/@thestrangerunboxing" target="_blank"><i class='bx bx-arrow-back' ></i></a>
+                </div>
+                <h3>Video Editor</h3>
+                <p>2+ Years Of Experience Of Video Editing ,And The Transition I Used.I Use Final Cut Pro For Video Editing In Macbook Pro M1 !!</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!--About Section-->
+    <section class="resume" id="resume">
+        <div class="resume-container">
+            <div class="resume-box">
+                <h2 data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">Why Hire Me ?</h2>
+                <p data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" class="desc">Experience with cross-browser compatibility and ensuring seamless user experiences across different devices. </p>
+                <button data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" class="resume-btn active">About Me</button>
+                <button data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" class="resume-btn">Experience</button>
+                <button data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" class="resume-btn">Education</button>
+                <button data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" class="resume-btn">Skills</button>
+            </div>
+
+            <div class="resume-box">
+                <div class="resume-detail about active">
+                    <h2 class="heading" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">About <span>Me</span></h2>
+                    <p class="desc" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2000">Passionate and detail-oriented Frontend Developer with 2 years of experience in building responsive, user-friendly websites.</p>
+                    
+                    <div class="resume-list" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
+
+                        <div class="resume-item">
+                            <p>Name:<span>Hamaad Afraan Ahmad</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Gender:<span>Male</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Age:
+                                <span>
+                                    <script type="text/javascript">
+                                    var currentYear = new Date();
+                                    var yearDiff = currentYear.getFullYear() - 1999;
+                                    
+                                    // Check if the current month is before February, or if it's February 16th or earlier
+                                    if (currentYear.getMonth() < 1 || (currentYear.getMonth() === 1 && currentYear.getDate() < 16)) {
+                                        yearDiff--;
+                                    }
+                                    
+                                    document.write(yearDiff);
+                                    </script> Years Old</span>
+                                </p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Status:<span>Un-Married</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>City:<span>Akola</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Nationality:<span>Indian</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Experience:<span>2+ Years</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Full Time:<span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Freelance:<span>Available</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Languages:<span>English / Hindi / Urdu</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Phone: <span>(+91) 7773904064</span></p>
+                        </div>
+                        <div class="resume-item">
+                            <p>Email:<span>hamaadafraanahmad@gmail.com</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="resume-detail experience">
+                    <h2 class="heading"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">My <span>Experience</span></h2>
+                    <p class="desc"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">2 Years Of Experience In Frontend Development With A Strong Foundation In HTML5, CSS3, JavaScript,Bootcamp And React.!</p>
+                    
+                    <div class="resume-list"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
+                        <div class="resume-item">
+                            <p class="year">2022 - 2024</p>
+                            <h3>Frontend Developer</h3>
+                            <p class="company">SFike Solutions PVT. LTD.</p>
+                            <p>Strong Understanding Of Ul Design Principles And Ability To Create Clean, User-Friendly Interfaces.</p>
+                        </div>
+                    
+                        <div class="resume-item">
+                            <p class="year">2022</p>
+                            <h3>Java - Training</h3>
+                            <p class="company">Naresh IT , Hyderabad</p>
+                            <p>6 Months : Training In Naresh IT Hyderabad After Completing Java Developer Course!</p>
+                        </div>
+                    
+                        <div class="resume-item">
+                            <p class="year">2020 - 2024</p>
+                            <h3>Youtuber</h3>
+                            <p class="company">The Stranger Unboxing</p>
+                            <p>4+ Years Of Experience In Youtube Unboxing And Review Video And Providing The Complete Information!</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023 - 2024</p>
+                            <h3>House Planner</h3>
+                            <p class="company">3D & 2D House Plan</p>
+                            <p>Experience In 3D & 2D House Planning In Which The Map I Create,No One Can Beat Me!!.</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2023 - 2024</p>
+                            <h3>Video Editing</h3>
+                            <p class="company">3D & 2D House Plan</p>
+                            <p>I Have 2+ Year Video Editing Experience,In Final Cut Pro & Camtasia..I Am Not Professional In Video Editing,Just Liitle Bit Experience </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="resume-detail education">
+                    <h2 class="heading"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">My <span>Education</span></h2>
+                    <p class="desc">Not thinking too much ahead. Just want to learn something new each day. I would like to make sure that I challenge and myself enough. I am pretty sure if I take care of the process, result will take care of itself.</p>
+
+                    <div class="resume-list"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
+
+                        
+                        <div class="resume-item" >
+                            <p class="year">2022 - 2024</p>
+                            <h3>MBA HR / IT</h3>
+                            <p class="company">Rabindranath Tagore University</p>
+                            <p>I Have Completed My 2 Years Of Distance Post Graduation From Rabindranath Tagore University, Bhopal</p>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <p class="year">2022</p>
+                            <h3>Java Developer</h3>
+                            <p class="company">Naresh IT - Hyderabad</p>
+                            <p>I Have Completed My 6 Month Java Developer Course From Naresh IT After Completion Of My Graduation</p>
+                        </div>
+                        
+                        <div class="resume-item">
+                            <p class="year">2016 - 2022</p>
+                            <h3>B.E. Computer Science</h3>
+                            <p class="company">College Of Engineering & Technology, Akola - 444001</p>
+                            <p>I Have Completed My 4 Years Of Graduation From COETA, Akola - 444001</p>
+                        </div>
+    
+                        <div class="resume-item">
+                            <p class="year">2016</p>
+                            <h3>12<sup>th </sup> Computer Science</h3>
+                            <p class="company">Manohar Naik College</p>
+                            <p>I Have Completed My 2 Years Higher Secondary Education From Manohar Naik College, Akola - 444001</p>
+                        </div>
+
+                        <div class="resume-item">
+                            <p class="year">2014</p>
+                            <h3>10<sup>th </sup> Computer Science</h3>
+                            <p class="company">Rahbar Convent School</p>
+                            <p>I Have Completed My Secondary Education From Rahbar Convent School, Akola - 444001</p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="resume-detail skills">
+                    <h2 class="heading"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">My <span>Skills</span></h2>
+                    <p class="desc">Strong Understanding Of User Interface design Principles And Ability To Create Clean, User-Friendly Interfaces,And User Understandable House Plan,Websites And Youtube Content!!.</p>
+
+                    <div class="resume-list"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="2500">
+                        <div class="resume-item">
+                            <i class='bx bxl-html5'></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-css3' ></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-javascript' ></i>
+                            <span>Javascript</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-react'></i>
+                            <span>React JS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-nodejs' ></i>
+                            <span>Node JS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bx-trending-up'></i>
+                            <span>SEO</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-tailwind-css' ></i>
+                            <span>Tailwind CSS</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-github'></i>
+                            <span>Github</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-java' ></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-mongodb'></i>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxs-data' ></i>
+                            <span>Data Structure & Algorithms</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxl-youtube' ></i>
+                            <span>Youtuber</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxs-camera'></i>
+                            <span>Photoshop</span>
+                        </div>
+                        <div class="resume-item">
+                            <i class='bx bxs-videos'></i>
+                            <span>Final Cut Pro</span>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!--Project Section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading"  data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+
+                <div class="portfolio-detail active">
+                    <p class="numb" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">01</p>
+                    <h3 data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500">SFIKE SOLUTIONS PVT. LTD.</h3>
+                    <p data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500">Completed The Ofiicial Website For My Last Company SFike Solution PVT. LTD. </p>
+                    <div class="tech" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500">
+                        <p>HTML5, CSS3, Javascript</p>
+                    </div>
+                    <div class="live-github"  data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500">
+                        <a href="https://www.sfikesolutions.in/" target="_blank"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://hamaadafraan.github.io/sfikesolutions/" target="_blank"><i class='bx bxl-github'><span>Repository</span></i></a>
+                        <a href="https://www.sfikesolutions.in/" target="_blank"><i class='bx bx-arrow-back'></i><span>Github Live</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">02</p>
+                    <h3>My Blog Page</h3>
+                    <p>Created FullStack/MERN Stack Website Using <span> MongoDB, ExpressJS, REACT.JS, NEXT.JS,  </span> And Also Has Login Panel For User & Admin Seperated And Also Has <span>Google Login</span> Functions. </p>
+                    <div class="tech">
+                        <p>MongoDB, ExpressJS, REACT.JS, NEXT.JS, Tailwind CSS, React Jodit Editor, React Helmet, NextAouth, AXIOS, BCRYPTJS, Animation On Scroll And React Toastify</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://hamaadsblog.in" target="_blank"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://github.com/HamaadAfraan/my-blog" target="_blank"><i class='bx bxl-github'><span>Repository</span></i></a>
+                        <a href="https://hamaads-blog.vercel.app/" target="_blank"><i class='bx bx-arrow-back'></i><span>Vercel Live</span></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">03</p>
+                    <h3>SHOPPING WEBSITE</h3>
+                    <p>Created E-Commerce Frontend Website Using <span> REACT.JS  </span>  Fully Working And Responsive </p>
+                    <div class="tech">
+                        <p>React.js, HTML5, CSS3, Javascript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://hamaadafraan.github.io/E-Commerce/" target="_blank"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://github.com/HamaadAfraan/E-Commerce" target="_blank"><i class='bx bxl-github'><span>Repository</span></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">04</p>
+                    <h3>Quiz App</h3>
+                    <p>HTML, CSS Quiz App,Where We Can Add Question In Java Script, And It Will Reflect In Quiz Panel!</p>
+                    <div class="tech">
+                        <p>HTML5, CSS3, Javascript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="https://hamaadafraan.github.io/quiz/" target="_blank"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://hamaadafraan.github.io/quiz/" target="_blank"><i class='bx bxl-github'><span>Repository</span></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">05</p>
+                    <h3>Weather Application</h3>
+                    <p>Weather Application Using React, HTML, CSS, And Javascript..Which Will Show The Temperature Of The City/Country Which We Will Update In Search Section!</p>
+                    <div class="tech">
+                        <p>React, HTML5, CSS3, Javascript</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="javascript:void(0)"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="https://hamaadafraan.github.io/weather-react/" target="_blank"><i class='bx bxl-github'><span>Repository</span></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">06</p>
+                    <h3>3D House Plan</h3>
+                    <p>3D House Plan Making Accourding To Client Requirements!</p>
+                    <div class="tech">
+                        <p>AutoCAD and Revit</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'><span>Repository</span></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">07</p>
+                    <h3>3D House Elevation</h3>
+                    <p>3D House Elevation Making Using AutoCAD 3D</p>
+                    <div class="tech">
+                        <p>AutoCAD 3D</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'><span>Repository</span></i></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-detail">
+                    <p class="numb">08</p>
+                    <h3>2D House Plan</h3>
+                    <p>2D House Plan Making Accourding To Client Requirements!</p>
+                    <div class="tech">
+                        <p>Planner 5D</p>
+                    </div>
+                    <div class="live-github">
+                        <a href="#"><i class='bx bx-arrow-back'></i><span>Live Project</span></a>
+                        <a href="#"><i class='bx bxl-github'><span>Repository</span></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-box">
+                <div class="portfolio-carousel"  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="2000">
+                    <div class="img-slide">
+                        <div class="img-item">
+                            <img src="images/sfike.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/my-blog.png">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/E-Commerce.jpg">
+                        </div>
+    
+                        <div class="img-item">
+                            <img src="images/quiz.jpg">
+                        </div>
+
+                        <div class="img-item">
+                            <img src="images/weather.png">
+                        </div>
+    
+                        <div class="img-item">
+                            <img src="images/house3d.jpg">
+                        </div>
+    
+                        <div class="img-item">
+                            <img src="images/myhouse.jpg">
+                        </div>
+    
+                        <div class="img-item">
+                            <img src="images/client.jpg">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button  data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" class="arrow-left disabled"><i class='bx bx-chevron-left' ></i></button>
+                    <button  data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1500" class="arrow-right"><i class='bx bx-chevron-right'></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section-->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-box">
+                <h2 class="desc" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1000">Let's Work Together</h2>
+                <p data-aos="zoom-in-left" data-aos-easing="linear" data-aos-duration="1500">Successful people are always looking for opportunities to help others. Unsuccessful people are always asking, What's in it for me?</p>
+
+                <div class="contact-detail">
+                    <a href="tel:+917773904064"><i class='bx bxs-phone' data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1000"></i></a>
+                    <div class="detail">
+                        <p data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">Phone</p>
+                        <p data-aos="zoom-in-left" data-aos-easing="linear" data-aos-duration="1000">(+91) 7773904064</p> 
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <a href="mailto:hamaadafraan@gmail.com"><i class='bx bxl-gmail' data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1000"></i></a>
+                    <div class="detail">
+                        <p data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">Email</p>
+                        <p data-aos="zoom-in-left" data-aos-easing="linear" data-aos-duration="1000">hamaadafraanahmad@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <a href="https://maps.app.goo.gl/HKZ5EPiVHVmZ4ZV37" target="_blank"><i class='bx bx-map' data-aos="zoom-in-right" data-aos-easing="linear" data-aos-duration="1000"></i></a>
+                    <div class="detail">
+                        <p data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1000">Address</p>
+                        <p data-aos="zoom-in-left" data-aos-easing="linear" data-aos-duration="1000">Firdous Manzil, Near Musa Masjid, Noor Park, Mohta Mill, Akola - 444001</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-box">
+
+                <form action="JavaScript:submitForm()" name="contact-form" method="post" id="formpage">
+
+                    <h2 class="heading" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1000">Contact <span>Me!</span></h2>
+                    <div class="field-box">
+                        <input type="text" placeholder="Full Name" id="fullName" name="Full Name" autocomplete="off" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+                        <input type="tel" placeholder="Phone Number" id="tele" name="Phone Number" autocomplete="off" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000">
+                        <input type="email" placeholder="Email Address" id="mail"  name="Email" autocomplete="off" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200">
+
+
+                        <select name="Purpose" id="selectdiv" autocomplete="off" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1200">
+                            <option value="" disabled selected hidden>Contacting For ?</option>
+                            <option value="Website Equiry!">Website Equiry</option>
+                            <option value="House Plan Equiry!">House Plan Equiry</option>
+                            <option value="Youtube Equiry!">Youtube Equiry</option>
+                            <option value="Video Editing Equiry!">Video Editing Equiry</option>
+                        </select>
+                        
+                        <textarea placeholder="Your Message" id="message" name="Message" autocomplete="off" data-aos="zoom-in" data-aos-easing="linear" data-aos-duration="1500"></textarea>
+                    </div>
+
+                    <div class="popup-div-bg">
+                        <div class="popupSuccess" id="popupSuccess">Your Submission Has Been Successful.</div>
+                        <div class="popup-error" id="popupError">Please Check Your Details Properly !!</div>
+                    </div>
+
+                    <input type="submit" class="btn" value="Send Message" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"></input>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="botom">
+        <h2><i>&#169; Hamaad Afraan Ahmad <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script></i></h2>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
