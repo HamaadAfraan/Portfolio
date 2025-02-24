@@ -155,6 +155,8 @@ section{
     font-size: 3.3rem;
 }
 .home-detail h2 .dynamic-txts{
+    margin-top: -0.1rem;
+    display:block;
     margin-left: 1.5rem;
     height: 5rem;
     line-height: 5rem;
@@ -344,11 +346,13 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .services-box .icon i{
     font-size: 4.5rem;
     transition: .3s;
+    cursor: pointer;
 }
 
 .services-box:hover .icon :not(a i){
@@ -378,6 +382,7 @@ section{
     font-size: 3rem;
     margin: .5rem 0 2rem;
     transition: .3s;
+    cursor: pointer;
 }
 .services-box:hover h3{
     color: var(--main-color);
@@ -385,6 +390,7 @@ section{
 .services-box p{
     font-size: 1.6rem;
     transition: .3s;
+    cursor: pointer;
 }
 .services-box:hover p{
     color: var(--main-color);
@@ -405,6 +411,7 @@ section{
 
 .resume-box .desc{
     margin: 2rem 0 2.5rem;
+    cursor: pointer;
 }
 .resume-box .resume-btn{
     width: 100%;
@@ -432,6 +439,7 @@ section{
 .resume-box .heading{
     font-size: 3.5rem;
     text-align: left;
+    cursor: pointer;
 }
 
 .resume-list {
@@ -467,6 +475,7 @@ section{
 }
 .resume-item h3{
     font-size: 2.1rem;
+    cursor: pointer;
 }
 
 .resume-item .company{
@@ -477,6 +486,7 @@ section{
 }
 .resume-item P{
     font-size: 1.3rem;
+    cursor: pointer;
 }
 .resume-item .company::before{
     content: '';
