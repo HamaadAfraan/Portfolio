@@ -169,11 +169,11 @@ section{
     font-weight: 600;
     position: relative;
     top: 0;
-    animation: slide 15s steps(5) infinite;
+    animation: slide 12s steps(4) infinite;
 }
 @keyframes slide{
     100%{
-        top: -25rem;
+        top: -20rem;
         
     }
 }
@@ -926,7 +926,7 @@ section{
         gap: 3rem;
     }
     .portfolio-container .portfolio-box:first-child{
-        order: 1;
+        order: 0;
     }
     .contact-box .field-box {
         grid-template-columns: repeat(2, 1fr);
